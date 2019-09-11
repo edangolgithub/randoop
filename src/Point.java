@@ -1,5 +1,5 @@
 import org.hamcrest.core.IsInstanceOf;
-
+//java -classpath C:\Users\dango\eclipse-workspace\ja\bin;C:\Users\dango\eclipse-workspace\ja\bin\randoop-all-4.2.0.jar randoop.main.Main gentests --classlist=c.txt --time-limit=300  --no-regression-tests=true  --unchecked-exception=ERROR  --npe-on-null-input=ERROR
 public class Point{
 
 	// x coordinate
@@ -30,7 +30,7 @@ public class Point{
 		{ 
 			return false;
 		
-		}
+		 }
 		if(o=="")
 		{
 			o= new Point(0, 0);

@@ -37,6 +37,10 @@ public class Parabola {
 		}
 
 		public Line getDirectrix() {
+			if(directrix==null)
+			{
+				directrix= new Line(new Point(0, 0), new Point(0, 0));
+			}
 			return directrix;
 		}
 
